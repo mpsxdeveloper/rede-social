@@ -1,0 +1,10 @@
+#profiles {
+    width: 75%;
+    height: 750px; 
+    float: left;
+    background: #659ec7;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    overflow-y: scroll;
+}

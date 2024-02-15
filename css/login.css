@@ -1,0 +1,59 @@
+body {
+   font: 72.5% Arial, serif;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background: #f0f8ff;
+}
+ 
+form, img {
+   width: 35em;
+}
+ 
+div.formulario {
+   float: left; margin: 1em 0;
+}
+ 
+fieldset {
+   background: #87ceeb;
+   border: 2px inset #000;
+}
+ 
+form legend {
+   border: 2px solid double #000;
+   background: #33FFFF;
+   color: #000;
+   padding: 4px;
+}
+ 
+form label {
+   display: block;
+   width: 5em;
+   margin-bottom: 1em;
+   padding-top: 0.7em;
+}
+ 
+form input {
+   display: block;
+   width: 23em;
+   margin-bottom: 1em;
+   border: 1px solid #000;
+}
+ 
+form input#conectar {
+   clear: both;
+   width: auto;
+}
+ 
+form input#email_login:hover {
+   background: #FFFF00;
+}
+ 
+form input#senha_login:hover {
+   background: #FFFF00;
+}
+ 
+#tudo {
+   width: 33%;
+   margin: 0 auto;
+}

@@ -1,0 +1,91 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   font: 90% sans-serif, serif;
+   text-align: center;
+}
+ 
+#tudo {
+   width: 90%;
+   height: 700px;
+   margin: 5px auto;
+   text-align: left;
+}
+ 
+#topo {
+   height: 50px;
+   background: #000;
+   text-align: center;
+   margin-top: 1%;
+   padding-top: 2px;
+}
+ 
+#principal {
+   width: 64.5%;
+   height: 650px;
+   float: right;
+   background: #87ceeb;
+}
+ 
+div.labels {
+   float: left;
+}
+ 
+div.inputs {
+   float: right; 
+}
+ 
+form label {
+   display: block;
+   width: 11em;
+   margin-top: 1em;
+}
+ 
+form input {
+   display: block;
+   width: 29em;
+   margin-top: 0.4em;
+}
+ 
+select#dia, select#mes, select#ano {
+   margin-top: 0.4em;
+}
+ 
+fieldset {
+   margin: 10px;
+   font-size: 1em;
+   font-weight: bold;
+}
+ 
+#logotipo {
+   text-align: center;
+   width: 35.4%;
+   height: 650px;
+   float: left;
+   background: #00c5cd;
+}
+ 
+img {
+   margin: auto;
+}
+ 
+form input#cadastrar {
+   clear: both;
+   width: auto;
+   height: auto;
+}
+ 
+h4 {
+   text-align: center;
+}
+
+#rodape {
+   text-align: center;
+   height: 25px;
+   background: #000;
+   font: 1em cursive serif;
+   font-weight: bold;
+   color: #fff;
+   margin-bottom: 1%;
+   clear: both;
+}

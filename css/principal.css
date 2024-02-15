@@ -1,0 +1,27 @@
+#principal {
+   width: 75%;
+   height: 750px; 
+   float: left;
+   background: #659ec7;
+   border: 1px solid #000;
+   margin-top: 10px;
+   margin-bottom: 8px;
+}
+ 
+.amizades_span {
+   border-bottom: 1px solid #000;
+   border-top: 1px solid #000;
+   color: #800000;
+   background-color: #fff;
+}
+ 
+.convite_span {
+   border-bottom: 1px solid #000;
+   border-top: 1px solid #000;
+   color: #800000;
+   background-color: #fff;
+}
+ 
+hr {
+   color: #800000;
+}
