@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="javascript/login.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/login.css" />
+    <link rel="icon" type="image/png" href="imagens/fav.png" />
+    <title>Rede Social</title>
+</head>
+
+<body onload="focar();">
+       
+   <div id="tudo">
+      <p><img src="imagens/logotipo.png" alt="logotipo grande"></p>
+      <form name="login" action="php/inicial.php" method="post">
+         <fieldset>
+            <legend>Insira seu e-mail e senha</legend>
+            <div class="formulario">
+               <label for="email_login">E-mail:</label>
+               <label for="senha_login">Senha:</label>
+            </div>
+            <div class="formulario">
+               <input type="text" name="email_login" id="email_login" maxlength="35" />
+               <input type="password" name="senha_login" id="senha_login" maxlength="35" />
+            </div>
+            <input type="submit" value="Conectar" name="conectar" id="conectar" onclick="return logar(form)" />
+            <p>Não possui uma conta na rede social? Cadastre-se <a href="html/cadastro.html">aqui.</a></p>
+         </fieldset>  
+      </form>
+   </div>
+
+</body>
+
+</html>
